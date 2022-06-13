@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/* LOGO */
+
+.picture__header {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 400px;
+    top: 30px;
+}
+
+.text__header {
+    position: absolute;
+    width: 143px;
+    height: 42px;
+    left: 480px;
+    top: 42px;
+
+}
+
+/* NAVIGATOR */
+
+.nav-bar {
+    position: absolute;
+    width: 632px;
+    height: 27px;
+    left: 650px;
+    top: 42px;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Container */
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* BANNER and BACKGROUND-IMG-COLOR */
+
+.banner {
+    width: 100%;
+    height: 100vh;
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #1C1B21 92.19%),
+        url(../img/background-image.png);
+    background-size: cover;
+}
+
+/*TEXT BANNER*/
+
+.New-Single__banner {
+    position: absolute;
+    width: 270px;
+    height: 72px;
+    left: 405px;
+    top: 412px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.War-For-Love__banner {
+    position: absolute;
+    width: 700px;
+    height: 150px;
+    left: 405px;
+    top: 494px;
+
+    font-weight: 700;
+    font-size: 100px;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #FFFFFF;
+}
+
+/*Decoration banner*/
+
+.decoration__banner {
+    position: absolute;
+    width: 1110px;
+    height: 27px;
+    left: 405px;
+    top: 694px;
+}
+
+.line_2 {
+    position: absolute;
+    width: 70px;
+    height: 0px;
+    left: -80px;
+    top: 13px;
+
+    border: 2px solid #7A66CC;
+}
+
+.line_3 {
+    position: absolute;
+    width: 20px;
+    height: 0px;
+    left: -15px;
+    top: 12px;
+    /* accent */
+    border: 2px solid #7A66CC;
+    transform: rotate(90deg);
+}
+
+.button_play {
+    position: absolute;
+    left: -140px;
+    top: 2px;
+}
+
+.time {
+    position: absolute;
+    left: 900px;
+    top: 2px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+
+    text-align: right;
+
+    /* white */
+
+    color: #FFFFFF;
+}
