@@ -8,7 +8,9 @@ body {
 }
 
 /* LOGO */
-
+#header{
+    margin:auto;
+}
 .picture__header {
     position: absolute;
     width: 60px;
@@ -293,4 +295,42 @@ body {
 
     background: url(../img/img-section-one.png);
     border-radius: 30px 0px;
+}
+
+/* Section - VIDEO */
+
+
+.text__logo__video {
+    position: absolute;
+    width: 310px;
+    height: 72px;
+    left: 650px;
+    top: 2000px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+
+    /* white */
+
+    color: #FFFFFF;
+}
+
+.logo__youtube {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 590px;
+    top: 2014px;
+    background: url(../img/youtube-5-48.png);
+}
+
+.video_youtube {
+    position: absolute;
+    left: 390px;
+    top: 2150px;
 }
